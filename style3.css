@@ -9,28 +9,27 @@
     flex-wrap: wrap;
     align-items: center;/*Buscar la relaciónn de tamaño*/
     align-content: center;
-            
-    
 }
+
 .flexbox-item{
     display: flex;
     text-align: right;
-    align-items: left;
-    
+    align-items: left;    
 }
 
 button{
     width: 120px; 
     height: 30px;
 }
+
 img{
 width: 50%;
 height:70%;
 }
+
 .flexbox-header{
     height: 40%;
     border-style: solid;
     border-bottom: 5px;
     background-color: black;
-
 }
