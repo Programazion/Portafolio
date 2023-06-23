@@ -4,13 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="css/materialize.min.css">
+   <!-- Compiled and minified CSS -->
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link rel="stylesheet" type="text/css" href="style5.css">
+
+</head>
+<nav class="light-blue lighten-1" role="navigation">
+  <!-- <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"><img id="logo" src="logo copy.png"  alt=""></a> -->
+    <ul class="right hide-on-med-and-down">
+      <li><a href="inicio copy.html">Go to home</a></li>
+    </ul>
+
+    <ul id="nav-mobile" class="sidenav">
+      <li><a href="inicio copy.html">Navbar Link</a></li>
+    </ul>
+    <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+  </div>
+</nav>
+
+<body id="bg" background="fondo.jpeg" >
+
+    <div id="form-Container">
+        <h2>Contactanos!</h2>
+        <br><br>
+
+        <div class="input-field col s6">
+            <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+            
+            <label for="first_name">First Name</label>
+          </div>
+        
+          <div class="input-field col s6">
+            <input id="last_name" type="text" class="validate">
+            <label for="last_name">Last Name</label>
+          </div>
+        
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="email" type="email" class="validate">
+              <label for="email">Email</label>
+            </div>
+          </div>
+            
+          <div class="input-field col s6">
+            <input id="icon_telephone" type="tel" class="validate">
+            <label for="icon_telephone">Telephone</label>
+          </div>
+          <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+            <i class="material-icons right">send</i>
+          </button>
+    </div>
+           
+
 
     <!-- Compiled and minified JavaScript -->
     <script src="js/materialize.min.js"></script>
-</head>
-<body>
-    
 </body>
+
 </html>
