@@ -2,10 +2,10 @@ console.log('Cargando JavaScript');
 console.log("Loading JavaScript Events");
 
 
-function myAction(onclick) {
-    alert("Bienvenid@s a Programazion Software company");
+function myAction(onmouseover) {
+    alert("Pasa el mouse sobre los botones para encontrar la información de tu interés");
     var data= document.getElementById('home');
-    data.style.backgroundColor= "red";
+    data.style.backgroundColor= "orange";
 
 }
 
@@ -28,4 +28,12 @@ function myAction4(onclick) {
     var data= document.getElementById('home');
     data.style.backgroundColor= "orange";
 
+}
+
+var elementsdiv =document.querySelectorAll('div')
+console.log(elementsdiv[4])
+
+function myAction5(){
+    elementsdiv = document.getElementById('foto1');
+    elementdiv[4].innerHTML= "Hola Soy Daniel Sánchez " 
 }
