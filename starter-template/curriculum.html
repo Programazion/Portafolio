@@ -70,15 +70,15 @@
     <div class="flexbox-container">
 
         
-        <div class="divtitle"><img src="Imagen3.png" id="foto1" alt="profile"onmouseover="myAction4()"></div>
-        <div><img src="Imagen2-modified.png" alt="profile"></div>
-        <div><img src="educacion.png" alt="profile"></div>
+        <div class="divtitle"><img src="Imagen3.png" id="foto1" alt="profile"></div>
+        <div><img src="Imagen2-modified.png" alt="profile" id="foto2" onmouseover="myAction4()"></div>
+        <div><img src="educacion.png" alt="profile" id="foto3"></div>
         
     </div>
     <div class="flexbox-container" style="color: rgb(244, 239, 238);">
-        <div><button class="btn2" onclick="myAction5()">Video</button></div>
-        <div><button class="btn2">Job Experience</button></div>
-        <div><button class="btn2">Education</button></div>
+        <div><button class="btn2" onclick="changeImage()">Background</button></div> <!-- change by click -->
+        <div><button class="btn2" onmouseleave="changeImage2()">Job Experience</button></div> <!-- change by onleave -->
+        <div><button class="btn2"onmouseover="changeImage3()">Education</button></div> <!-- change by onmouseover -->
         
     </div>
     <script src="eventos.js"></script>

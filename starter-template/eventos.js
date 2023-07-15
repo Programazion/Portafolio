@@ -24,7 +24,7 @@ function myAction3(onclick) {
 }
 
 function myAction4(onclick) {
-    alert(" Bienvenid@s al Home");
+    alert("Curriculum por Cambio de imagenes, En esta página puedes evidenciar 3 funciones para cambiar y esconder fotos");
     var data= document.getElementById('home');
     data.style.backgroundColor= "orange";
 
@@ -33,7 +33,29 @@ function myAction4(onclick) {
 var elementsdiv =document.querySelectorAll('div')
 console.log(elementsdiv[4])
 
-function myAction5(){
-    elementsdiv = document.getElementById('foto1');
-    elementdiv[4].innerHTML= "Hola Soy Daniel Sánchez " 
+function changeImage(){
+    var foto1 = document.getElementById('foto1');
+    var foto2 = document.getElementById('foto2');
+    var foto3 = document.getElementById('foto3');
+    foto1.src= "about.jpg";
+    foto2.src = "crea.jpg"; 
+    foto3.src= "4a.png";
+}
+
+function changeImage2(){
+    var foto1 = document.getElementById('foto1');
+    var foto2 = document.getElementById('foto2');
+    var foto3 = document.getElementById('foto3');
+    foto1.src= "Imagen3.png";
+    foto2.src = "Imagen2-modified.png"; 
+    foto3.src= "educacion.png";
+}
+
+function changeImage3(){
+    var foto1 = document.getElementById('foto1');
+    var foto2 = document.getElementById('foto2');
+    var foto3 = document.getElementById('foto3');
+    foto1.src= "about.jpg";
+    foto2.src = "crea.jpg"; 
+    foto3.src= "4a.png";
 }
